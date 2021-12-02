@@ -10,3 +10,6 @@ for i in range(1, len(depths)):
         no += 1
 
 print(no)
+
+# One liner attempt
+print(sum(depths[i+1] > depths[i] for i in range(len(depths)-1)))
