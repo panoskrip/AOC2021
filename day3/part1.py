@@ -1,6 +1,5 @@
 f = open("input.txt", "r")
 
-
 li = [0,0, 0,0, 0,0, 0,0, 0,0, 0,0, 0,0, 0,0, 0,0, 0,0, 0,0, 0,0]
 for line in f:
 	i = 0
@@ -13,7 +12,6 @@ for line in f:
 		i += 2
 
 g = ""
-
 for i in range(len(li)):	
 	try:
 		if (i % 2 == 0):
@@ -21,16 +19,13 @@ for i in range(len(li)):
 				g += '0'
 			else:
 				g += '1'
-			print(i)
-		
+			print(i)		
 	except:
 		break
 
-print(g)
 gli = [char for char in g]
-print(gli)
-
 e = ""
+
 for bit in gli:
 	if (bit == '0'):
 		e += '1'
