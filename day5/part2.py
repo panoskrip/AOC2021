@@ -55,5 +55,4 @@ for line in arr:
         if (point >= 2):
             s += 1
 
-print(s)
-   
+print(s) 
