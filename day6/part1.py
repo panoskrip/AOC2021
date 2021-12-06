@@ -1,7 +1,7 @@
 f = open("input.txt", "r")
 
 arr = list(map(int, f.readline().split(',')))
-eights = []
+
 
 
 day = 0
@@ -14,7 +14,8 @@ while (day < 80):
             arr[i] = 6
             arr.append(8)
     
-    day += 1
+    day += 1 
+
 
 
 print(len(arr))
