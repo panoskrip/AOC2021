@@ -92,12 +92,6 @@ def checkPoint(arr, i, j, s):
 s = 0
 k=0
 for ij in points:
-	if (k==1):
-		i = ij[0]
-		j = ij[1]
-		print('next')
-		print(checkPoint(arr, i, j, s)+1)
-		break
-	k += 1
+	print (ij)
     
 	
